@@ -1,0 +1,15 @@
+services:
+  api:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      BANK_DATA_DIR: /data
+      BANK_LLM_PROVIDER: deterministic
+      BANK_JWT_SECRET: poc-only-not-for-production
+  web:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - api

@@ -1,0 +1,6 @@
+HARBOURLINE DOCUMENT SAMPLE — FICTIONAL
+Document type: Salary slip
+Employee name: Priya Sharma
+Employer: Northwind Analytics Pvt Ltd
+Pay period: October 2026
+Net monthly income: INR 80000

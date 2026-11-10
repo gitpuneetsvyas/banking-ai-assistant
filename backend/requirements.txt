@@ -1,0 +1,12 @@
+fastapi==0.162.2
+uvicorn==0.54.0
+sqlalchemy==2.1.8
+pydantic==2.14.3
+pydantic-settings==2.16.2
+python-multipart==0.0.33
+reportlab==5.1.0
+pypdf==7.0.0
+httpx==0.28.1
+pytest==9.2.0
+langgraph==1.2.20
+langchain-core==1.7.6
